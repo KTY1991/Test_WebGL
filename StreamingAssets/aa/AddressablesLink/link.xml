@@ -9,19 +9,21 @@
     <type fullname="DummyObject" preserve="all" />
     <type fullname="FanIndicator" preserve="all" />
     <type fullname="GrassObject" preserve="all" />
-    <type fullname="ItemData" preserve="all" />
-    <type fullname="ItemDatabase" preserve="all" />
     <type fullname="ItemObject" preserve="all" />
     <type fullname="LilyPadObject" preserve="all" />
     <type fullname="LineIndicator" preserve="all" />
     <type fullname="MushroomObject" preserve="all" />
-    <type fullname="ObjectData" preserve="all" />
-    <type fullname="ObjectDatabase" preserve="all" />
     <type fullname="PlantDatabase" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
     <type fullname="ProjectileIndicator" preserve="all" />
     <type fullname="RadialIndicator" preserve="all" />
-    <type fullname="SceneDatabase" preserve="all" />
+    <type fullname="SO_ActionDatabase" preserve="all" />
+    <type fullname="SO_ItemData" preserve="all" />
+    <type fullname="SO_ItemDatabase" preserve="all" />
+    <type fullname="SO_ObjectData" preserve="all" />
+    <type fullname="SO_ObjectDatabase" preserve="all" />
+    <type fullname="SO_SceneDatabase" preserve="all" />
+    <type fullname="SO_WeaponData" preserve="all" />
     <type fullname="TreeObject" preserve="all" />
     <type fullname="UI_GamePad" preserve="all" />
     <type fullname="UI_GameScene" preserve="all" />
@@ -31,15 +33,15 @@
     <type fullname="UI_LobbyScene" preserve="all" />
     <type fullname="UI_TitleScene" preserve="all" />
     <type fullname="WeaponAnimationDatabase" preserve="all" />
-    <type fullname="WeaponData" preserve="all" />
     <type fullname="CameraController/PitchAngle" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[EquipmentType,UnityEngine.Transform]" preserve="nothing" serialized="true" />
     <type fullname="AnimationData" preserve="nothing" serialized="true" />
     <type fullname="GoogleSheet" preserve="nothing" serialized="true" />
     <type fullname="ObjectSpawnData" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[System.Int32,ItemData]" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[System.Int32,ObjectData]" preserve="nothing" serialized="true" />
+    <type fullname="SO_ItemData/ValidationData" preserve="nothing" serialized="true" />
+    <type fullname="SO_ObjectData/ValidationData" preserve="nothing" serialized="true" />
+    <type fullname="SerializeFieldDictionary`2[System.Int32,SO_ObjectData]" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[WeaponType,WeaponAnimationDatabase/WeaponAnimationData]" preserve="nothing" serialized="true" />
     <type fullname="WeaponAnimationDatabase/WeaponAnimationData" preserve="nothing" serialized="true" />
   </assembly>
@@ -146,6 +148,9 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Sirenix.Serialization">
+    <type fullname="Sirenix.Serialization.SerializationData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
