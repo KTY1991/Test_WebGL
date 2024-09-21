@@ -18,6 +18,7 @@
     <type fullname="ProjectileIndicator" preserve="all" />
     <type fullname="RadialIndicator" preserve="all" />
     <type fullname="SO_ActionDatabase" preserve="all" />
+    <type fullname="SO_DropItemDatabase" preserve="all" />
     <type fullname="SO_ItemData" preserve="all" />
     <type fullname="SO_ItemDatabase" preserve="all" />
     <type fullname="SO_ObjectData" preserve="all" />
@@ -41,7 +42,6 @@
     <type fullname="ObjectSpawnData" preserve="nothing" serialized="true" />
     <type fullname="SO_ItemData/ValidationData" preserve="nothing" serialized="true" />
     <type fullname="SO_ObjectData/ValidationData" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[System.Int32,SO_ObjectData]" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[WeaponType,WeaponAnimationDatabase/WeaponAnimationData]" preserve="nothing" serialized="true" />
     <type fullname="WeaponAnimationDatabase/WeaponAnimationData" preserve="nothing" serialized="true" />
   </assembly>
