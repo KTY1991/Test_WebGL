@@ -3,7 +3,6 @@
     <type fullname="AnimationController" preserve="all" />
     <type fullname="AttackIndicator" preserve="all" />
     <type fullname="CameraController" preserve="all" />
-    <type fullname="CharacterObject" preserve="all" />
     <type fullname="CircularIndicator" preserve="all" />
     <type fullname="CrateObject" preserve="all" />
     <type fullname="DummyObject" preserve="all" />
@@ -15,28 +14,30 @@
     <type fullname="MushroomObject" preserve="all" />
     <type fullname="PlantDatabase" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
+    <type fullname="PlayerObject" preserve="all" />
     <type fullname="ProjectileIndicator" preserve="all" />
     <type fullname="RadialIndicator" preserve="all" />
-    <type fullname="SO_ActionDatabase" preserve="all" />
-    <type fullname="SO_DropItemDatabase" preserve="all" />
+    <type fullname="SO_ActionTable" preserve="all" />
+    <type fullname="SO_DropItemTable" preserve="all" />
     <type fullname="SO_ItemData" preserve="all" />
-    <type fullname="SO_ItemDatabase" preserve="all" />
+    <type fullname="SO_ItemTable" preserve="all" />
     <type fullname="SO_ObjectData" preserve="all" />
-    <type fullname="SO_ObjectDatabase" preserve="all" />
-    <type fullname="SO_SceneDatabase" preserve="all" />
+    <type fullname="SO_ObjectTable" preserve="all" />
+    <type fullname="SO_SceneTable" preserve="all" />
     <type fullname="SO_WeaponData" preserve="all" />
     <type fullname="TreeObject" preserve="all" />
+    <type fullname="UI_DialoguePopup" preserve="all" />
     <type fullname="UI_GamePad" preserve="all" />
     <type fullname="UI_GameScene" preserve="all" />
     <type fullname="UI_InventoryPopup" preserve="all" />
     <type fullname="UI_Item" preserve="all" />
     <type fullname="UI_ItemInfo" preserve="all" />
     <type fullname="UI_LobbyScene" preserve="all" />
+    <type fullname="UI_Selection" preserve="all" />
     <type fullname="UI_TitleScene" preserve="all" />
     <type fullname="WeaponAnimationDatabase" preserve="all" />
     <type fullname="CameraController/PitchAngle" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[EquipmentType,UnityEngine.Transform]" preserve="nothing" serialized="true" />
     <type fullname="AnimationData" preserve="nothing" serialized="true" />
     <type fullname="GoogleSheet" preserve="nothing" serialized="true" />
     <type fullname="ObjectSpawnData" preserve="nothing" serialized="true" />
@@ -120,6 +121,7 @@
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -130,6 +132,7 @@
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
